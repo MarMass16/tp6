@@ -1,0 +1,317 @@
+#content {
+  border: 1px solid black;
+}
+
+#content p.info {
+  color: #fff;
+}
+
+#content p.info a {
+  text-decoration: none;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+  color: #424242;
+}
+
+li {
+  list-style: none;
+}
+
+/* header */
+#site-header {
+  position: relative;
+  padding: auto;
+  display: flex;
+}
+
+.logo {
+  position: absolute;
+  top: auto;
+  left: auto;
+  float: left;
+}
+
+.site-navigation {
+  margin-left: auto; 
+}
+
+a {
+  text-decoration: none;
+  color: #424242;
+}
+
+.site-navigation li {
+  text-decoration: none;
+  display: inline;
+  text-align: right;
+  color: #424242;
+  font-weight: bold;
+  padding: 20px;
+}
+
+/* fin header */
+/* site content */
+
+#banner {
+   /*  clear: both;*/
+    width: 100%;
+    height: 450px;
+    background-image: url("images/indexbanner-bg3.jpg");
+    background-size: 100vw;
+    margin:auto;
+    padding-top: 50px;
+    padding-left: 200px;
+    z-index: -1;
+}
+
+
+#banner_text h1 p {
+    padding-top: 50px;
+    }
+
+#banner_text {
+    width: 50%;
+    margin-left:150px ;
+    color: white;
+}
+
+#banner h1 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* buscador */
+.search-form {
+  z-index: 2;
+  height: 60px;
+  margin-top: -30px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.search-form form{
+  display: flex;
+  width: 100%;
+}
+
+.input{
+  padding-left: 10px;
+  height: 60px;
+  width: 85%;
+}
+.submit{
+  text-transform: uppercase;
+  background-color: #01AFF3;
+  color: #fff;
+  font-weight: bold;
+  font-size: 10px;
+  height: 60px;
+  width: 15%;
+  cursor: pointer;
+}
+/* fin buscador */
+/* servicios */
+.services {
+  width: 100%;
+  text-align: center;
+}
+
+.service {
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+}
+
+.iconos:hover{ 
+    -webkit-transform: scale(1.35);
+    transform: scale(1.35)
+}
+.iconos {
+ -webkit-transition: 1.3s ease-in-out;
+    -moz-transition: 1.3s ease-in-out;
+    -o-transition: 1.3s ease-in-out;
+    transition: 1.3s ease-in-out;
+
+
+}
+
+}
+}
+/*.dot-horizontal {
+	display: block;
+	text-align: center;
+}*/
+/* fin servicios */
+/* features */
+.dots {
+  display: inline-flex;
+}
+
+#features {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+}
+
+.features-title {
+  margin: auto;
+  text-align: center;
+}
+
+.features-1 {
+  width: 30%;
+  display: block;
+  float: left;
+}
+
+.features-2 {
+  width: 30%;
+  display: block;
+  float: left;
+}
+
+.featured-image {
+  width: 40%;
+  margin: auto;
+  display: block;
+  float: left;
+}
+
+.info {
+    text-align: center;
+  
+
+}
+
+/* plans */
+.plans {
+  width: 100%;
+  margin: auto;
+  clear: both;
+  display: inline-flex;
+  text-align: center;
+  overflow: hidden;
+  background-image: url(images/pricing-bg.jpg);
+
+}
+
+.plan {
+  margin: auto;
+  clear: both;
+
+
+}
+
+.price {
+  font-size: 40px;
+  font-variant: black;
+}
+
+.peso {
+  font-size: 15px;
+  font-variant: black;
+}
+
+.cents {
+  font-size: 15px;
+  font-variant: black;
+}
+
+.price-list{
+  margin-left: auto;
+  padding: 12px;
+  border-spacing: 10px;
+}
+
+.price-list td{
+  margin-left: auto;
+  font-size: 11px;
+}
+
+.amount {
+  color: orange;
+  font-weight: bold;
+}
+
+button {
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 9px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 22px auto;
+    width: 100%;
+    background: #01AFF3;
+    color: #fff;
+    height: 30px;
+    border-radius: 4px;
+}
+
+/* fin plans */
+.publicity {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  color: white;
+  height: 200px;
+  background-color: #142e3f;
+}
+
+.publicity p {
+  color: white;
+  font-size: 20px;
+}
+
+.publicity p strong {
+  color: #3FB8AF;
+  font-size: 30px;
+  padding: 10px;
+}
+
+/* foooter */
+footer {
+  background: #0B486B;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+}
+
+#site-footer {
+  margin-right: auto;
+  background: #0B486B;
+  font-size: 12px;
+  color: white;
+  overflow: hidden;
+}
+
+.site-navigation-footer {
+    
+    margin: auto;
+    text-align: right;
+    display: inline;
+}
+
+.site-navigation-footer li {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    text-align: right;  
+    padding: 10px; 
+}
+
+
+.site-navigation-footer a {
+  color: white;
+  display: inline;
+}
+
+/* fin footer */
